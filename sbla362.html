@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+    <head>  
+        <title>Computer Science</title>
+        <link rel="stylesheet", href="sbla362.css", type ="text/css"/>
+        <script src="sbla362.js" defer></script>
+    </head>
+    <body>
+        <nav>
+            <a id="classes", onclick = "classes()">Courses & Classes</a>
+            <a id="info", onclick = "info()">Infographics</a>
+        </nav>
+
+        <div id="courses" display="block">
+            <table id="courseTable"></table>
+            <div class="popup" id="popup" display="none"></div>
+        </div>
+
+
+
+        <div id="infographics" display="none">
+            <h1> Attendence Chart </h1>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="-20 -20 1100 300" id="graph"></svg>
+            <p id="sourceData"></p>
+        </div>
+        <div id="version"></div>
+    </body>
+ 
